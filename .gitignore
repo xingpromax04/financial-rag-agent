@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local data and generated indexes
+data/
+.rag_store/
+analyze_request.json
+analyze_response.json
+data/**/*.tmp
+*.faiss
+*.chunks.json
+
+# Logs and OS/editor noise
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local secrets/config overrides
+.env
+.env.*
+!.env.example
